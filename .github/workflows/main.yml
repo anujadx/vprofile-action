@@ -44,7 +44,7 @@ jobs:
 # Check the quality gate status
       - name: SonarQube Quality Gate check
         id: sonarqube-quality-gate-check
-        uses: sonarqube/sonarqube-quality-gate-action@master
+        uses: sonarsource/sonarqube-quality-gate-action@master
         #Force to fail step after specific time
         timeout-minutes: 5
         env:
